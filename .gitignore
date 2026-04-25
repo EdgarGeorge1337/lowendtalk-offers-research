@@ -1,0 +1,5 @@
+# Raw scrape artifacts — large, regenerable, noisy in git history
+*.html
+node_modules/
+*.log
+.DS_Store
