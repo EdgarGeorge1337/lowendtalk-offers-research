@@ -3,3 +3,22 @@
 node_modules/
 *.log
 .DS_Store
+
+# Scratch scraper scripts and intermediate batch outputs (not meaningful long-term)
+analyze.js
+build-md.js
+build-page3-md.js
+extract-cached.js
+fetch-batch.js
+parse-listing.js
+scrape-page*.js
+batch-log*.txt
+batch-results*.json
+listing.json
+discussions.json
+page*-state.json
+page*-listing.json
+
+# Intermediate JSON/JSONL captured by scrapers — keep only the rendered .md findings
+findings/*.json
+findings/*.jsonl
